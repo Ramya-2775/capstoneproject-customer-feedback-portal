@@ -1,0 +1,45 @@
+﻿@model IEnumerable<capstone_project.Models.Feedback>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Feedback</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success font-weight-bold">Create New</a>
+</p>
+<table class="table table-bordered table-striped table-hover text-center">
+    <thead class="thead-dark">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Rating</th>
+            <th>Message</th>
+            <th>Submittedon</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Email</td>
+                <td>@item.Rating</td>
+                <td>@item.Message</td>
+                <td>@item.Submittedon</td>
+
+
+                @if (Context.Session.GetString("Admin") == "true")
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info text-white">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
