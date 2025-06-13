@@ -67,7 +67,7 @@ Customer-Feedback-Portal/
 └── Startup.cs 
 ```
 🌐 Website Preview
-![Homepage Screenshot](./images/website.png)
+![Homepage Screenshot](./Images/website.png)
 ---
 
 ☁️ Azure Deployment Guide
