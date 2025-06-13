@@ -70,6 +70,37 @@ Customer-Feedback-Portal/
 
 ---<img width="947" alt="website" src="https://github.com/user-attachments/assets/7d2cb709-e2ef-429c-8303-2e404bacdddc" />
 
+📄 About Us Page
+
+This page provides a brief overview of the platform, including its purpose and how it helps users submit feedback.  
+It contains basic contact and service details.
+
+<img width="946" alt="aboutus" src="https://github.com/user-attachments/assets/19361c77-76c9-4001-bc87-e8d77021f2bc" />
+
+---
+
+💬 Customer Feedback Page
+
+Only customers can submit feedback here. The form captures their suggestions, complaints, or reviews which will be stored securely in the database.
+
+<img width="956" alt="Feedbackk" src="https://github.com/user-attachments/assets/eef6828d-d13a-48bf-ae3f-dfc539225484" />
+
+
+---
+
+🛠️ Admin Dashboard
+
+Only **admins** have access to this section. They can:
+- ✅ View all customer feedback in a table
+- 📝 Edit any feedback
+- ❌ Delete feedback if needed
+- 🔍 View feedback details individually
+
+This helps admins monitor and respond to user inputs effectively.
+
+<img width="688" alt="Admindashboard" src="https://github.com/user-attachments/assets/6a6b3775-0254-48f0-b338-30bc39e74dcb" />
+
+
 
 ☁️ Azure Deployment Guide
 
