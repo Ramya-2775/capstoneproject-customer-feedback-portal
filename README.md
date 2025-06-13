@@ -68,7 +68,9 @@ Customer-Feedback-Portal/
 ```
 🌐 Website Preview
 
----<img width="947" alt="website" src="https://github.com/user-attachments/assets/7d2cb709-e2ef-429c-8303-2e404bacdddc" />
+<img width="947" alt="website" src="https://github.com/user-attachments/assets/7d2cb709-e2ef-429c-8303-2e404bacdddc" />
+
+---
 
 📄 About Us Page
 
@@ -100,7 +102,7 @@ This helps admins monitor and respond to user inputs effectively.
 
 <img width="688" alt="Admindashboard" src="https://github.com/user-attachments/assets/6a6b3775-0254-48f0-b338-30bc39e74dcb" />
 
-
+---
 
 ☁️ Azure Deployment Guide
 
