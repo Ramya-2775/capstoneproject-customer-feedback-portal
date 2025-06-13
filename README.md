@@ -67,7 +67,7 @@ Customer-Feedback-Portal/
 └── Startup.cs 
 ```
 🌐 Website Preview
-![Homepage Screenshot](./website.png)
+![Homepage Screenshot](./images/website.png)
 ---
 
 ☁️ Azure Deployment Guide
@@ -125,12 +125,17 @@ Replace your local string with Azure string like this:
 ```
 Step 5: Publish from Visual Studio
 1.Right-click your project → Publish
+
 2.Select Azure App Service (Windows)
+
 3.Choose your existing App Service
+
 4.Click Publish
 
 ✅ Final Testing
 1.Visit your app: https://customerfeedbackportal.azurewebsites.net
+
 2.Test form submissions and dashboard
+
 3.Check Azure SQL Database for data entries
 
